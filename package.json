@@ -6,6 +6,7 @@
   "author": "Fredrik A. Madsen-Malmo <mail.fredrikaugust@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "node-notifier": "^5.2.1",
     "ws": "^4.0.0"
   }
 }
