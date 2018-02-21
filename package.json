@@ -1,0 +1,11 @@
+{
+  "name": "pb-notifications",
+  "version": "1.0.0",
+  "description": "Program for sending a desktop notification when you get a pushbullet notification.",
+  "main": "index.js",
+  "author": "Fredrik A. Madsen-Malmo <mail.fredrikaugust@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^4.0.0"
+  }
+}
