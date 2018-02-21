@@ -22,6 +22,9 @@ conn.on('message', (raw) => {
   const data = JSON.parse(raw);
 
   console.log(`Received message of type ${data.type}`);
+  
+  // Debugging the entire message
+  process.env._DEBUG ? console.log(data) : false
 
   if (data["type"] != 'push') {
     return;
